@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Excluded sub-project (has its own git history)
+Finance-Research/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+.env.*
+
+# Local test/debug scripts
+test_10_articles.py
+test_sentiment_article.py
+training_run_output.txt

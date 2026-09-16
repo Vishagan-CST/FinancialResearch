@@ -1,0 +1,2 @@
+best_config,best_epoch,train_accuracy,val_accuracy,test_accuracy,baseline_test_accuracy,train_logloss,val_logloss,test_logloss,learning_rate,max_depth,min_child_weight,gamma,reg_alpha,reg_lambda,subsample,colsample_bytree
+Final Model,85,0.6020905923344948,0.6450939457202505,0.6304801670146137,0.5887265135699373,0.6879912614822388,0.6893185377120972,0.687981128692627,0.005,2,10,0.5,0.5,5.0,0.5,0.5

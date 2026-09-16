@@ -1,0 +1,122 @@
+{
+  "tf_equity_markets": [
+    "market",
+    "markets",
+    "index",
+    "nasdaq",
+    "dow",
+    "sp 500",
+    "stock",
+    "stocks",
+    "equity",
+    "equities",
+    "shares",
+    "crisis",
+    "rally",
+    "volatility",
+    "uncertainty",
+    "selloff",
+    "surge"
+  ],
+  "tf_central_bank_policy": [
+    "fed",
+    "central bank",
+    "interest",
+    "policy",
+    "federal reserve",
+    "interest rate",
+    "monetary policy",
+    "powell",
+    "ecb",
+    "rate cut",
+    "rate hike",
+    "boj",
+    "rates"
+  ],
+  "tf_macro_economy": [
+    "growth",
+    "economy",
+    "economic",
+    "inflation",
+    "jobs",
+    "recession",
+    "gdp",
+    "unemployment",
+    "slowdown",
+    "labor market",
+    "wages",
+    "consumer spending",
+    "retail sales"
+  ],
+  "tf_bonds_credit_ratings": [
+    "ratings",
+    "rating",
+    "debt",
+    "credit",
+    "yields",
+    "bond",
+    "treasury",
+    "bonds",
+    "yield",
+    "spread",
+    "default",
+    "downgrade"
+  ],
+  "tf_banking_sector": [
+    "bank",
+    "banks",
+    "banking",
+    "loans",
+    "liquidity",
+    "lending",
+    "loan",
+    "balance sheet",
+    "mortgage"
+  ],
+  "tf_trade_geopolitics": [
+    "trade",
+    "tariffs",
+    "deal",
+    "sanctions",
+    "tariff",
+    "export",
+    "import"
+  ],
+  "tf_investor_sentiment_risk": [
+    "investors",
+    "risk",
+    "investment",
+    "capital",
+    "investor",
+    "portfolio",
+    "sentiment"
+  ],
+  "tf_commodities_energy": [
+    "oil",
+    "crude",
+    "energy",
+    "gold",
+    "barrel",
+    "brent",
+    "opec",
+    "commodity",
+    "commodities"
+  ],
+  "tf_currency_fx": [
+    "dollar",
+    "currency",
+    "euro",
+    "yen",
+    "yuan",
+    "exchange",
+    "pound"
+  ],
+  "tf_corporate_earnings": [
+    "earnings",
+    "forecast",
+    "revenue",
+    "profit",
+    "loss",
+    "quarterly"
+  ]
+}

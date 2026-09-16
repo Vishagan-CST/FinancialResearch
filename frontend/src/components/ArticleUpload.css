@@ -1,0 +1,221 @@
+.upload-section {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xl);
+  padding: 0 var(--spacing-md);
+}
+
+.upload-card {
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  transition: padding 0.3s ease;
+}
+
+.upload-title {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-primary);
+}
+
+.upload-mode-toggle {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.03);
+  padding: var(--spacing-xs);
+  border-radius: var(--radius-md);
+}
+
+.mode-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.mode-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text-primary);
+}
+
+.mode-btn.active {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: var(--color-accent-blue);
+  color: var(--color-accent-blue);
+}
+
+.upload-area {
+  margin-bottom: var(--spacing-lg);
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  border: 2px dashed var(--color-glass-border);
+  min-height: 250px;
+}
+
+.file-label:hover {
+  border-color: var(--color-accent-blue);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.file-label svg {
+  color: var(--color-accent-blue);
+  margin-bottom: var(--spacing-md);
+}
+
+.upload-text {
+  color: var(--color-text-primary);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-xs);
+  text-align: center;
+}
+
+.upload-hint {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.text-area-container {
+  margin-bottom: var(--spacing-lg);
+}
+
+.article-textarea {
+  width: 100%;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-glass-border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.article-textarea:focus {
+  outline: none;
+  border-color: var(--color-accent-blue);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.article-textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.analyze-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: linear-gradient(135deg,
+      var(--color-accent-blue) 0%,
+      var(--color-accent-green) 100%);
+  border: none;
+  border-radius: var(--radius-md);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.analyze-btn:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+}
+
+.analyze-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  padding: 12px;
+  color: #ef4444;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .upload-section {
+    padding: 0 var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .upload-card {
+    padding: var(--spacing-lg);
+  }
+
+  .upload-mode-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .mode-btn {
+    padding: var(--spacing-sm) 4px;
+    font-size: 0.9rem;
+  }
+
+  .file-label {
+    min-height: 180px;
+    padding: var(--spacing-lg);
+  }
+
+  .article-textarea {
+    min-height: 150px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .upload-mode-toggle {
+    grid-template-columns: 1fr;
+  }
+
+  .analyze-btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 1rem;
+  }
+}
