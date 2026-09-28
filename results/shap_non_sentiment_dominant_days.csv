@@ -1,0 +1,8 @@
+date,top_feature,top_feature_display,top_feature_shap,predicted_proba,actual_label,predicted_label,correct
+2024-09-17,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,0.008240944,0.5079396,1,1,True
+2024-12-26,tf_equity_markets,TF-IDF: Equity Markets,-0.007992002,0.5042294,0,1,False
+2025-09-10,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,0.007521871,0.50235534,1,1,True
+2025-09-03,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,0.00737914,0.5021266,1,1,True
+2025-04-08,global_markets_commodities,LDA Topic: Global Markets Commodities,-0.0072277593,0.4972163,0,0,True
+2024-12-24,tf_macro_economy,TF-IDF: Macro Economy,0.0070411633,0.50666505,1,1,True
+2025-04-09,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,0.0060120337,0.5034592,1,1,True

@@ -1,0 +1,507 @@
+date,predicted,predicted_proba_up,top_feature,top_feature_display,top_feature_category,top_feature_shap_adjusted,top_feature_shap_raw,raw_top_feature,raw_top_feature_shap
+2023-12-07,down,0.49722704,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.029106734,0.0061797737,sentiment_score,-0.02652605
+2023-12-08,up,0.5118055,sentiment_score,FinBERT Sentiment Score,sentiment,0.038936198,0.038936198,sentiment_score,0.038936198
+2023-12-11,up,0.5065011,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03300242
+2023-12-12,down,0.4958411,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.02535286
+2023-12-13,up,0.5008006,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.033087645
+2023-12-14,down,0.49170125,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026206985,-0.026206985,sentiment_score,-0.026206985
+2023-12-15,down,0.49507973,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028237026,-0.028237026,sentiment_score,-0.028237026
+2023-12-18,down,0.49689716,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.02768802,0.0058785607,sentiment_score,-0.00769803
+2023-12-19,up,0.5014175,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,-0.038411085,-0.008155219,sentiment_score,0.03164349
+2023-12-20,up,0.5091258,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03676325
+2023-12-21,down,0.4960514,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.02672924
+2023-12-22,down,0.49420187,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027518,-0.027518,sentiment_score,-0.027518
+2023-12-26,down,0.49238905,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026616592
+2023-12-27,down,0.4913492,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027785197
+2023-12-28,down,0.49295637,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026319556,-0.026319556,sentiment_score,-0.026319556
+2023-12-29,down,0.4917947,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.027492914
+2024-01-02,up,0.5107031,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.038120706
+2024-01-03,up,0.5099375,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03606848
+2024-01-04,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.034682736
+2024-01-05,up,0.5109964,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03548833
+2024-01-08,down,0.49444154,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026121572
+2024-01-09,up,0.51230824,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03806798
+2024-01-10,up,0.50964946,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03794546
+2024-01-11,down,0.49518505,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025013506,-0.025013506,sentiment_score,-0.025013506
+2024-01-12,up,0.50775063,sentiment_score,FinBERT Sentiment Score,sentiment,0.038082477,0.038082477,sentiment_score,0.038082477
+2024-01-16,up,0.50877327,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035108794
+2024-01-17,down,0.4914649,sentiment_score,FinBERT Sentiment Score,sentiment,-0.024515463,-0.024515463,sentiment_score,-0.024515463
+2024-01-18,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036510292
+2024-01-19,down,0.49215496,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027518
+2024-01-22,down,0.49729532,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026355263,-0.026355263,sentiment_score,-0.026355263
+2024-01-23,down,0.4949308,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027518,-0.027518,sentiment_score,-0.027518
+2024-01-24,up,0.5097264,sentiment_score,FinBERT Sentiment Score,sentiment,0.039254487,0.039254487,sentiment_score,0.039254487
+2024-01-25,down,0.4958792,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027276888
+2024-01-26,down,0.49722704,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.02652605
+2024-01-29,down,0.49743614,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026990259,-0.026990259,sentiment_score,-0.026990259
+2024-01-30,down,0.4952,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027518,-0.027518,sentiment_score,-0.027518
+2024-01-31,up,0.5079082,sentiment_score,FinBERT Sentiment Score,sentiment,0.039217513,0.039217513,sentiment_score,0.039217513
+2024-02-01,down,0.4956868,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027326329,-0.027326329,sentiment_score,-0.027326329
+2024-02-02,down,0.49579784,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.028280983
+2024-02-05,up,0.5091565,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03853817
+2024-02-06,down,0.49392885,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.02253776
+2024-02-07,down,0.49611658,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028990721,-0.028990721,sentiment_score,-0.028990721
+2024-02-08,down,0.49576497,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.02808262
+2024-02-09,down,0.497378,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027210312,-0.027210312,sentiment_score,-0.027210312
+2024-02-12,down,0.49660525,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027455889,-0.027455889,sentiment_score,-0.027455889
+2024-02-13,up,0.5077253,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03794976
+2024-02-14,up,0.51154727,sentiment_score,FinBERT Sentiment Score,sentiment,0.038962904,0.038962904,sentiment_score,0.038962904
+2024-02-15,up,0.50889206,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03533436
+2024-02-16,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037303403
+2024-02-20,up,0.51117873,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03755636
+2024-02-21,down,0.49544808,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027250223,-0.027250223,sentiment_score,-0.027250223
+2024-02-22,down,0.49238905,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026616592
+2024-02-23,down,0.4931024,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027674604
+2024-02-26,up,0.50880027,sentiment_score,FinBERT Sentiment Score,sentiment,0.03942218,0.03942218,sentiment_score,0.03942218
+2024-02-27,down,0.49478754,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.026584273
+2024-02-28,up,0.5117376,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035357054
+2024-02-29,down,0.4913492,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027785197
+2024-03-01,up,0.5062781,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035925023
+2024-03-04,down,0.4964584,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027918521,-0.027918521,sentiment_score,-0.027918521
+2024-03-05,down,0.4949308,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027059447,-0.027059447,sentiment_score,-0.027059447
+2024-03-06,up,0.5057181,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.032575723
+2024-03-07,down,0.49257734,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025353242,-0.025353242,sentiment_score,-0.025353242
+2024-03-08,up,0.5111949,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038208842
+2024-03-11,up,0.5076304,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035019584
+2024-03-12,up,0.5103222,sentiment_score,FinBERT Sentiment Score,sentiment,0.043424554,0.043424554,sentiment_score,0.043424554
+2024-03-13,up,0.5112264,sentiment_score,FinBERT Sentiment Score,sentiment,0.04177268,0.04177268,sentiment_score,0.04177268
+2024-03-14,up,0.50478035,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.032632004
+2024-03-15,up,0.50883067,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037175596
+2024-03-18,down,0.49613765,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027953567,-0.027953567,sentiment_score,-0.027953567
+2024-03-19,down,0.49212205,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027364645,-0.027364645,sentiment_score,-0.027364645
+2024-03-20,down,0.49212885,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027568184,-0.027568184,sentiment_score,-0.027568184
+2024-03-21,up,0.5046568,sentiment_score,FinBERT Sentiment Score,sentiment,0.036210854,0.036210854,sentiment_score,0.036210854
+2024-03-22,down,0.49204335,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027301243
+2024-03-25,up,0.510513,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03800431
+2024-03-26,up,0.5130754,sentiment_score,FinBERT Sentiment Score,sentiment,0.037006482,0.037006482,sentiment_score,0.037006482
+2024-03-27,down,0.49189904,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026399579
+2024-03-28,down,0.49469832,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.02763623
+2024-04-01,up,0.5118614,sentiment_score,FinBERT Sentiment Score,sentiment,0.039688095,0.039688095,sentiment_score,0.039688095
+2024-04-02,down,0.49550945,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,-0.027058212,-0.0057448433,sentiment_score,-0.013143768
+2024-04-03,up,0.51172453,sentiment_score,FinBERT Sentiment Score,sentiment,0.037344646,0.037344646,sentiment_score,0.037344646
+2024-04-04,up,0.51172453,sentiment_score,FinBERT Sentiment Score,sentiment,0.03851972,0.03851972,sentiment_score,0.03851972
+2024-04-05,down,0.49594522,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027299078
+2024-04-08,up,0.5005943,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.02924314,0.0062087346,sentiment_score,-0.013809804
+2024-04-09,up,0.50939035,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03858017
+2024-04-10,down,0.49149513,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.02366357
+2024-04-11,up,0.5048137,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035516083
+2024-04-12,up,0.51352835,sentiment_score,FinBERT Sentiment Score,sentiment,0.03962376,0.03962376,sentiment_score,0.03962376
+2024-04-15,up,0.5116347,sentiment_score,FinBERT Sentiment Score,sentiment,0.039848294,0.039848294,sentiment_score,0.039848294
+2024-04-16,down,0.49667263,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.029015707
+2024-04-17,up,0.50744927,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037877206
+2024-04-18,up,0.5149285,sentiment_score,FinBERT Sentiment Score,sentiment,0.0408074,0.0408074,sentiment_score,0.0408074
+2024-04-19,up,0.50605583,sentiment_score,FinBERT Sentiment Score,sentiment,0.039053872,0.039053872,sentiment_score,0.039053872
+2024-04-22,up,0.5128825,sentiment_score,FinBERT Sentiment Score,sentiment,0.03999324,0.03999324,sentiment_score,0.03999324
+2024-04-23,down,0.49824423,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027698902,-0.027698902,sentiment_score,-0.027698902
+2024-04-24,down,0.49687302,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025986813,-0.025986813,sentiment_score,-0.025986813
+2024-04-25,up,0.50982344,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038208842
+2024-04-26,down,0.49555117,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027463926
+2024-04-29,down,0.49635857,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027900957,-0.027900957,sentiment_score,-0.027900957
+2024-04-30,down,0.49238977,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029000781,-0.029000781,sentiment_score,-0.029000781
+2024-05-01,up,0.50831056,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038327422
+2024-05-02,down,0.49407133,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027741933
+2024-05-03,up,0.5110325,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.034759935,-0.00692429,sentiment_score,0.03320237
+2024-05-06,up,0.5046545,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.02924314,0.0062087346,sentiment_score,-0.011461059
+2024-05-07,down,0.49550593,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.032563724,0.006913742,sentiment_score,-0.027637491
+2024-05-08,up,0.5111745,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037815593
+2024-05-09,down,0.49594522,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027299078
+2024-05-10,down,0.4928645,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.030702233,-0.006518521,sentiment_score,-0.026982196
+2024-05-13,up,0.5071334,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037836865
+2024-05-14,up,0.5084259,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036618292
+2024-05-15,down,0.49311802,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.027075145
+2024-05-16,down,0.49648145,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.027436735
+2024-05-17,down,0.49442598,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.030702233,-0.006518521,sentiment_score,-0.02702298
+2024-05-20,down,0.49773496,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02633956,-0.02633956,sentiment_score,-0.02633956
+2024-05-21,down,0.49148253,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027568184
+2024-05-22,down,0.4965237,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026564427,-0.026564427,sentiment_score,-0.026564427
+2024-05-23,up,0.5104697,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03548833
+2024-05-24,up,0.51147974,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03802615
+2024-05-28,down,0.4971638,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026976293,-0.026976293,sentiment_score,-0.026976293
+2024-05-29,up,0.504017,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.03295637
+2024-05-30,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036381286
+2024-05-31,down,0.4908122,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.030702233,-0.006518521,sentiment_score,-0.02793577
+2024-06-03,up,0.51245034,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03447395
+2024-06-04,up,0.51039964,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037318774
+2024-06-05,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036650922
+2024-06-06,down,0.49566385,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.025271975
+2024-06-07,up,0.5062187,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.03182641
+2024-06-10,down,0.49630386,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.02684096,-0.0056987177,sentiment_score,-0.026388453
+2024-06-11,down,0.49591824,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028145533,-0.028145533,sentiment_score,-0.028145533
+2024-06-12,down,0.49151194,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027364645,-0.027364645,sentiment_score,-0.027364645
+2024-06-13,up,0.5084795,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03676325
+2024-06-14,up,0.5117374,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037290707
+2024-06-17,up,0.51305723,sentiment_score,FinBERT Sentiment Score,sentiment,0.039986882,0.039986882,sentiment_score,0.039986882
+2024-06-18,down,0.493525,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026995732
+2024-06-20,up,0.5110363,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03585781
+2024-06-21,down,0.48744982,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.04981198,-0.009922706,sentiment_score,-0.029483382
+2024-06-24,up,0.5081657,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035243172
+2024-06-25,up,0.50759816,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03817431
+2024-06-26,down,0.4971615,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.025577607
+2024-06-27,up,0.5117376,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03653213
+2024-06-28,down,0.49052057,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026643783
+2024-07-01,up,0.50625306,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03659645
+2024-07-02,up,0.50879145,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037421983
+2024-07-03,up,0.5045926,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.031937234
+2024-07-05,up,0.5095653,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03573902
+2024-07-08,down,0.49158794,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027517434,-0.027517434,sentiment_score,-0.027517434
+2024-07-09,down,0.4946266,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028010482,-0.028010482,sentiment_score,-0.028010482
+2024-07-10,up,0.5095845,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036640517
+2024-07-11,up,0.5084259,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035825178
+2024-07-12,down,0.49196514,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.030702233,-0.006518521,sentiment_score,-0.027477216
+2024-07-15,down,0.49609503,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027109535,-0.027109535,sentiment_score,-0.027109535
+2024-07-16,down,0.4950459,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.026449515
+2024-07-17,up,0.51387435,sentiment_score,FinBERT Sentiment Score,sentiment,0.042084504,0.042084504,sentiment_score,0.042084504
+2024-07-18,down,0.49683076,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.02685912
+2024-07-19,up,0.5157137,sentiment_score,FinBERT Sentiment Score,sentiment,0.043778326,0.043778326,sentiment_score,0.043778326
+2024-07-22,down,0.49432284,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.030457044
+2024-07-23,down,0.49360484,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028056812,-0.028056812,sentiment_score,-0.028056812
+2024-07-24,up,0.50907755,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03704432
+2024-07-25,up,0.5088365,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03664446
+2024-07-26,down,0.49085915,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026885327
+2024-07-29,down,0.49681264,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026531702,-0.026531702,sentiment_score,-0.026531702
+2024-07-30,up,0.5082073,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037699074
+2024-07-31,up,0.5054301,sentiment_score,FinBERT Sentiment Score,sentiment,0.03685192,0.03685192,sentiment_score,0.03685192
+2024-08-01,up,0.50903815,sentiment_score,FinBERT Sentiment Score,sentiment,0.042013235,0.042013235,sentiment_score,0.042013235
+2024-08-02,up,0.5093964,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037568845
+2024-08-05,up,0.5060833,sentiment_score,FinBERT Sentiment Score,sentiment,0.040826704,0.040826704,sentiment_score,0.040826704
+2024-08-06,up,0.5107413,sentiment_score,FinBERT Sentiment Score,sentiment,0.042097237,0.042097237,sentiment_score,0.042097237
+2024-08-07,down,0.49237347,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027518
+2024-08-08,up,0.51283604,sentiment_score,FinBERT Sentiment Score,sentiment,0.039833978,0.039833978,sentiment_score,0.039833978
+2024-08-09,down,0.49444154,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.026121572
+2024-08-12,up,0.509323,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035105627
+2024-08-13,up,0.5073313,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03752373
+2024-08-14,down,0.49073705,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027312368,-0.027312368,sentiment_score,-0.027312368
+2024-08-15,down,0.49595448,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.027436735
+2024-08-16,down,0.49765712,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02649886,-0.02649886,sentiment_score,-0.02649886
+2024-08-19,down,0.49198732,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02692179,-0.02692179,sentiment_score,-0.02692179
+2024-08-20,down,0.49346715,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027631527,-0.027631527,sentiment_score,-0.027631527
+2024-08-21,down,0.49328846,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027059447
+2024-08-22,up,0.5081632,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.033933718
+2024-08-23,up,0.505762,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03684941
+2024-08-26,up,0.50763464,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03619837
+2024-08-27,up,0.5079163,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.028232034
+2024-08-28,up,0.5135646,sentiment_score,FinBERT Sentiment Score,sentiment,0.039833978,0.039833978,sentiment_score,0.039833978
+2024-08-29,up,0.51117873,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03755636
+2024-08-30,down,0.48895696,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03396829,-0.0072119506,sentiment_score,-0.02703436
+2024-09-03,up,0.50712305,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03715665
+2024-09-04,up,0.50758517,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.033885513
+2024-09-05,up,0.51123446,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.031121846
+2024-09-06,up,0.5110363,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03676325
+2024-09-09,down,0.49878708,sentiment_score,FinBERT Sentiment Score,sentiment,-0.0263641,-0.0263641,sentiment_score,-0.0263641
+2024-09-10,down,0.49498823,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028510135,-0.028510135,sentiment_score,-0.028510135
+2024-09-11,down,0.49211997,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.021258796
+2024-09-12,up,0.5093001,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.033933718
+2024-09-13,down,0.49453154,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025849156,-0.025849156,sentiment_score,-0.025849156
+2024-09-16,up,0.5117321,sentiment_score,FinBERT Sentiment Score,sentiment,0.039385416,0.039385416,sentiment_score,0.039385416
+2024-09-17,down,0.4962035,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.02716432
+2024-09-18,up,0.5104705,sentiment_score,FinBERT Sentiment Score,sentiment,0.03935508,0.03935508,sentiment_score,0.03935508
+2024-09-19,down,0.49228528,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026250776,-0.026250776,sentiment_score,-0.026250776
+2024-09-20,up,0.5091051,sentiment_score,FinBERT Sentiment Score,sentiment,0.040844318,0.040844318,sentiment_score,0.040844318
+2024-09-23,down,0.49108022,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.0268946
+2024-09-24,down,0.49615672,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026580125,-0.026580125,sentiment_score,-0.026580125
+2024-09-25,down,0.49186984,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026179794,-0.026179794,sentiment_score,-0.026179794
+2024-09-26,up,0.50902635,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035699002
+2024-09-27,down,0.49175486,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.029709255
+2024-09-30,down,0.49082777,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.02703436
+2024-10-01,up,0.5114139,sentiment_score,FinBERT Sentiment Score,sentiment,0.03609407,0.03609407,sentiment_score,0.03609407
+2024-10-02,down,0.49825463,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.02930973,0.0062228725,sentiment_score,-0.024770139
+2024-10-03,down,0.49720976,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026345162,-0.026345162,sentiment_score,-0.026345162
+2024-10-04,down,0.49686596,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.029725306
+2024-10-07,down,0.49233976,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.03647199,-0.007265337,sentiment_score,-0.02097609
+2024-10-08,up,0.5130076,sentiment_score,FinBERT Sentiment Score,sentiment,0.03966669,0.03966669,sentiment_score,0.03966669
+2024-10-09,up,0.5073995,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.032386143
+2024-10-10,up,0.5081632,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035108794
+2024-10-11,down,0.49443278,sentiment_score,FinBERT Sentiment Score,sentiment,-0.023653088,-0.023653088,sentiment_score,-0.023653088
+2024-10-14,down,0.49644053,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026564427,-0.026564427,sentiment_score,-0.026564427
+2024-10-15,up,0.51097864,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03802286
+2024-10-16,up,0.50858676,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.034355734
+2024-10-17,up,0.5093001,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.033933718
+2024-10-18,down,0.49154484,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027518
+2024-10-21,down,0.4995298,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.034668926
+2024-10-22,down,0.49383795,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025097862,-0.025097862,sentiment_score,-0.025097862
+2024-10-23,up,0.5101277,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03702107
+2024-10-24,up,0.5110089,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.036262494
+2024-10-25,down,0.49826008,sentiment_score,FinBERT Sentiment Score,sentiment,-0.0263641,-0.0263641,sentiment_score,-0.0263641
+2024-10-28,down,0.4965237,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02702298,-0.02702298,sentiment_score,-0.02702298
+2024-10-29,down,0.49459827,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027741933
+2024-10-30,up,0.5100607,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035812695
+2024-10-31,up,0.51153564,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038208842
+2024-11-01,up,0.50804645,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.034762967
+2024-11-04,up,0.51243156,sentiment_score,FinBERT Sentiment Score,sentiment,0.0408271,0.0408271,sentiment_score,0.0408271
+2024-11-05,down,0.48604336,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.045237675,-0.009011489,sentiment_score,-0.027258147
+2024-11-06,down,0.4937282,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.028491661
+2024-11-07,down,0.49198732,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027380347,-0.027380347,sentiment_score,-0.027380347
+2024-11-08,down,0.49375638,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028077262,-0.028077262,sentiment_score,-0.028077262
+2024-11-11,up,0.5102658,sentiment_score,FinBERT Sentiment Score,sentiment,0.039026145,0.039026145,sentiment_score,0.039026145
+2024-11-12,down,0.4916812,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025524009,-0.025524009,sentiment_score,-0.025524009
+2024-11-13,down,0.49400803,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02911294,-0.02911294,sentiment_score,-0.02911294
+2024-11-14,up,0.50869006,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.033933718
+2024-11-15,up,0.5062187,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.032889154
+2024-11-18,down,0.49514815,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026982196,-0.026982196,sentiment_score,-0.026982196
+2024-11-19,down,0.4954667,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027156623
+2024-11-20,up,0.5113807,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037303403
+2024-11-21,up,0.5071233,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037861202
+2024-11-22,down,0.49444154,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.026121572
+2024-11-25,down,0.49293151,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.02548897
+2024-11-26,down,0.49308312,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026551861
+2024-11-27,down,0.48883364,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027460601
+2024-11-29,down,0.4911088,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02857228,-0.02857228,sentiment_score,-0.02857228
+2024-12-02,down,0.49793422,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026916629,-0.026916629,sentiment_score,-0.026916629
+2024-12-03,down,0.4913922,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02692179,-0.02692179,sentiment_score,-0.02692179
+2024-12-04,down,0.49609247,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.02598678
+2024-12-05,up,0.5099375,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.036861595
+2024-12-06,down,0.4962911,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.032563724,0.006913742,sentiment_score,-0.026994836
+2024-12-09,up,0.5119074,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037303403
+2024-12-10,down,0.4902732,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028922254,-0.028922254,sentiment_score,-0.028922254
+2024-12-11,down,0.49238977,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028542224,-0.028542224,sentiment_score,-0.028542224
+2024-12-12,up,0.51087767,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037186883
+2024-12-13,down,0.49304375,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027994927,-0.027994927,sentiment_score,-0.027994927
+2024-12-16,down,0.49340537,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028036656,-0.028036656,sentiment_score,-0.028036656
+2024-12-17,up,0.51027256,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03704002
+2024-12-18,up,0.5066746,sentiment_score,FinBERT Sentiment Score,sentiment,0.039398726,0.039398726,sentiment_score,0.039398726
+2024-12-19,down,0.49157733,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.023611404
+2024-12-20,up,0.5094586,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035019584
+2024-12-23,down,0.49481404,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025676925,-0.025676925,sentiment_score,-0.025676925
+2024-12-24,up,0.51030755,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03676325
+2024-12-26,down,0.49595883,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.02392802
+2024-12-27,up,0.5097363,sentiment_score,FinBERT Sentiment Score,sentiment,0.03889198,0.03889198,sentiment_score,0.03889198
+2024-12-30,down,0.4927065,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.023477428
+2024-12-31,down,0.48909515,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027312368
+2025-01-02,up,0.51086444,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036324315
+2025-01-03,down,0.49344787,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.027411649
+2025-01-06,down,0.4955244,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027463926
+2025-01-07,up,0.508385,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,-0.039107837,-0.00830315,sentiment_score,0.03727675
+2025-01-08,down,0.49788526,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027287953
+2025-01-09,up,0.5055972,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.0345158
+2025-01-10,up,0.50479114,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.035277534
+2025-01-13,up,0.5059089,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.033829566
+2025-01-14,down,0.49481204,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027518,-0.027518,sentiment_score,-0.027518
+2025-01-15,down,0.49330103,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025061695,-0.025061695,sentiment_score,-0.025061695
+2025-01-16,down,0.4961232,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.028481768
+2025-01-17,down,0.49342757,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02943062,-0.02943062,sentiment_score,-0.02943062
+2025-01-21,down,0.49469346,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029475141,-0.029475141,sentiment_score,-0.029475141
+2025-01-22,down,0.4954595,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02919713,-0.02919713,sentiment_score,-0.02919713
+2025-01-23,down,0.49524742,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029454803,-0.029454803,sentiment_score,-0.029454803
+2025-01-24,down,0.49433523,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028102348,-0.028102348,sentiment_score,-0.028102348
+2025-01-27,up,0.5095421,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03711742
+2025-01-28,down,0.49558005,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02653934,-0.02653934,sentiment_score,-0.02653934
+2025-01-29,down,0.49442893,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028047204,-0.028047204,sentiment_score,-0.028047204
+2025-01-30,up,0.5117376,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036262494
+2025-01-31,down,0.49237347,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.033940677,-0.0072060884,sentiment_score,-0.027059447
+2025-02-03,up,0.51048905,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037229754
+2025-02-04,up,0.5110346,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.03170351,0.006731106,sentiment_score,0.031228421
+2025-02-05,down,0.49901655,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.029106734,0.0061797737,sentiment_score,-0.025080062
+2025-02-06,up,0.51464695,sentiment_score,FinBERT Sentiment Score,sentiment,0.039200235,0.039200235,sentiment_score,0.039200235
+2025-02-07,down,0.49888584,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027077777
+2025-02-10,down,0.49647978,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.028825875
+2025-02-11,down,0.4916006,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026840618,-0.026840618,sentiment_score,-0.026840618
+2025-02-12,down,0.49159306,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.021258796
+2025-02-13,down,0.4931325,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026649937,-0.026649937,sentiment_score,-0.026649937
+2025-02-14,up,0.51209337,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03585781
+2025-02-18,down,0.49317628,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02626612,-0.02626612,sentiment_score,-0.02626612
+2025-02-19,down,0.49336347,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027102336,-0.027102336,sentiment_score,-0.027102336
+2025-02-20,up,0.50919,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.038527258
+2025-02-21,up,0.5113605,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036524612
+2025-02-24,up,0.51163906,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03711742
+2025-02-25,up,0.5110425,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.038196146
+2025-02-26,up,0.50950134,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035812695
+2025-02-27,up,0.5111231,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037460044
+2025-02-28,up,0.509867,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037022483
+2025-03-03,up,0.50910664,sentiment_score,FinBERT Sentiment Score,sentiment,0.039505802,0.039505802,sentiment_score,0.039505802
+2025-03-04,up,0.5100392,sentiment_score,FinBERT Sentiment Score,sentiment,0.038867585,0.038867585,sentiment_score,0.038867585
+2025-03-05,down,0.49668032,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028343387,-0.028343387,sentiment_score,-0.028343387
+2025-03-06,up,0.51612633,sentiment_score,FinBERT Sentiment Score,sentiment,0.042920798,0.042920798,sentiment_score,0.042920798
+2025-03-07,up,0.5112628,sentiment_score,FinBERT Sentiment Score,sentiment,0.039841637,0.039841637,sentiment_score,0.039841637
+2025-03-10,up,0.51688904,sentiment_score,FinBERT Sentiment Score,sentiment,0.041565396,0.041565396,sentiment_score,0.041565396
+2025-03-11,up,0.5155549,sentiment_score,FinBERT Sentiment Score,sentiment,0.041450173,0.041450173,sentiment_score,0.041450173
+2025-03-12,down,0.49979362,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.029106734,0.0061797737,sentiment_score,-0.026973335
+2025-03-13,down,0.4933354,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.03540858,-0.007053502,sentiment_score,-0.027017822
+2025-03-14,up,0.5122302,sentiment_score,FinBERT Sentiment Score,sentiment,0.040014286,0.040014286,sentiment_score,0.040014286
+2025-03-17,up,0.5100346,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.0372487
+2025-03-18,down,0.49921125,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.032563724,0.006913742,sentiment_score,-0.027070941
+2025-03-19,down,0.49167565,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027497556,-0.027497556,sentiment_score,-0.027497556
+2025-03-20,up,0.5113519,sentiment_score,FinBERT Sentiment Score,sentiment,0.040330872,0.040330872,sentiment_score,0.040330872
+2025-03-21,up,0.5107468,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03802286
+2025-03-24,up,0.51315737,sentiment_score,FinBERT Sentiment Score,sentiment,0.04250382,0.04250382,sentiment_score,0.04250382
+2025-03-25,down,0.49244273,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.026997894
+2025-03-26,up,0.51028705,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037229754
+2025-03-27,up,0.5119861,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038617793
+2025-03-28,up,0.51452297,sentiment_score,FinBERT Sentiment Score,sentiment,0.040021855,0.040021855,sentiment_score,0.040021855
+2025-04-01,up,0.51067233,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036443107
+2025-04-02,up,0.5138035,sentiment_score,FinBERT Sentiment Score,sentiment,0.04058902,0.04058902,sentiment_score,0.04058902
+2025-04-03,up,0.5143458,sentiment_score,FinBERT Sentiment Score,sentiment,0.04151862,0.04151862,sentiment_score,0.04151862
+2025-04-04,up,0.50840884,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037647225
+2025-04-07,up,0.50874805,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,-0.039107837,-0.00830315,sentiment_score,0.038019516
+2025-04-08,up,0.5033346,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.030932046
+2025-04-09,down,0.4954595,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02919713,-0.02919713,sentiment_score,-0.02919713
+2025-04-10,up,0.5142433,sentiment_score,FinBERT Sentiment Score,sentiment,0.040992826,0.040992826,sentiment_score,0.040992826
+2025-04-11,down,0.49087477,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.03540858,-0.007053502,sentiment_score,-0.02663888
+2025-04-14,down,0.49838388,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027998336,-0.027998336,sentiment_score,-0.027998336
+2025-04-15,down,0.49207526,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026638715,-0.026638715,sentiment_score,-0.026638715
+2025-04-16,up,0.5076558,sentiment_score,FinBERT Sentiment Score,sentiment,0.040709205,0.040709205,sentiment_score,0.040709205
+2025-04-17,up,0.5092926,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03777218
+2025-04-21,up,0.51143116,sentiment_score,FinBERT Sentiment Score,sentiment,0.0378372,0.0378372,sentiment_score,0.0378372
+2025-04-22,down,0.4959627,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028162817,-0.028162817,sentiment_score,-0.028162817
+2025-04-23,down,0.49573597,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026530454,-0.026530454,sentiment_score,-0.026530454
+2025-04-24,up,0.51065195,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03755636
+2025-04-25,up,0.510708,sentiment_score,FinBERT Sentiment Score,sentiment,0.04089398,0.04089398,sentiment_score,0.04089398
+2025-04-28,down,0.49833545,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028677758,-0.028677758,sentiment_score,-0.028677758
+2025-04-29,down,0.4948591,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028200861,-0.028200861,sentiment_score,-0.028200861
+2025-04-30,up,0.51306105,sentiment_score,FinBERT Sentiment Score,sentiment,0.03889198,0.03889198,sentiment_score,0.03889198
+2025-05-01,up,0.51070356,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.036330126
+2025-05-02,down,0.495354,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026564427,-0.026564427,sentiment_score,-0.026564427
+2025-05-05,up,0.5067178,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038351446
+2025-05-06,up,0.5145426,sentiment_score,FinBERT Sentiment Score,sentiment,0.041833606,0.041833606,sentiment_score,0.041833606
+2025-05-07,down,0.49142885,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027364645,-0.027364645,sentiment_score,-0.027364645
+2025-05-08,up,0.5096708,sentiment_score,FinBERT Sentiment Score,sentiment,0.037674382,0.037674382,sentiment_score,0.037674382
+2025-05-09,down,0.49680075,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027381485,-0.027381485,sentiment_score,-0.027381485
+2025-05-12,up,0.51451313,sentiment_score,FinBERT Sentiment Score,sentiment,0.043275096,0.043275096,sentiment_score,0.043275096
+2025-05-13,down,0.49356008,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029785657,-0.029785657,sentiment_score,-0.029785657
+2025-05-14,down,0.49614057,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.027436735
+2025-05-15,up,0.50959677,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03596864
+2025-05-16,down,0.49246088,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.023477428
+2025-05-19,up,0.5030163,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.032386594
+2025-05-20,up,0.50980306,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.035019584
+2025-05-21,down,0.49618506,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.022622786
+2025-05-22,down,0.49287695,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025180195,-0.025180195,sentiment_score,-0.025180195
+2025-05-23,up,0.51356095,sentiment_score,FinBERT Sentiment Score,sentiment,0.03994891,0.03994891,sentiment_score,0.03994891
+2025-05-27,down,0.49174616,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.04757905,-0.0094778985,sentiment_score,-0.031033285
+2025-05-28,up,0.5165461,sentiment_score,FinBERT Sentiment Score,sentiment,0.043806702,0.043806702,sentiment_score,0.043806702
+2025-05-29,down,0.49709645,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.025184043,0.0053469306,sentiment_score,-0.019463362
+2025-05-30,down,0.49382904,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029251033,-0.029251033,sentiment_score,-0.029251033
+2025-06-02,up,0.5090458,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035359904
+2025-06-03,down,0.4939046,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02861333,-0.02861333,sentiment_score,-0.02861333
+2025-06-04,up,0.5079593,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037175596
+2025-06-05,up,0.51253676,sentiment_score,FinBERT Sentiment Score,sentiment,0.04041927,0.04041927,sentiment_score,0.04041927
+2025-06-06,down,0.49773178,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.026443457
+2025-06-09,down,0.49582693,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025296066,-0.025296066,sentiment_score,-0.025296066
+2025-06-10,down,0.4953752,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029373104,-0.029373104,sentiment_score,-0.029373104
+2025-06-11,down,0.4973268,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026345162,-0.026345162,sentiment_score,-0.026345162
+2025-06-12,up,0.5114139,sentiment_score,FinBERT Sentiment Score,sentiment,0.03609407,0.03609407,sentiment_score,0.03609407
+2025-06-13,down,0.49430972,tf_currency_fx,TF-IDF: Currency Fx,tfidf,-0.032979958,-0.0070021143,sentiment_score,-0.027657459
+2025-06-16,up,0.5093852,sentiment_score,FinBERT Sentiment Score,sentiment,0.037898585,0.037898585,sentiment_score,0.037898585
+2025-06-17,down,0.4926492,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.028930249
+2025-06-18,up,0.50874627,sentiment_score,FinBERT Sentiment Score,sentiment,0.03573348,0.03573348,sentiment_score,0.03573348
+2025-06-20,up,0.51069945,sentiment_score,FinBERT Sentiment Score,sentiment,0.036574375,0.036574375,sentiment_score,0.036574375
+2025-06-23,up,0.51069945,sentiment_score,FinBERT Sentiment Score,sentiment,0.037345648,0.037345648,sentiment_score,0.037345648
+2025-06-24,up,0.5087147,sentiment_score,FinBERT Sentiment Score,sentiment,0.037269145,0.037269145,sentiment_score,0.037269145
+2025-06-25,down,0.49651954,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027657459,-0.027657459,sentiment_score,-0.027657459
+2025-06-26,down,0.49329317,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.028930249
+2025-06-27,down,0.4913492,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027102336
+2025-06-30,down,0.4942774,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.027657459
+2025-07-01,up,0.5063919,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03586737
+2025-07-02,up,0.51459205,sentiment_score,FinBERT Sentiment Score,sentiment,0.039351247,0.039351247,sentiment_score,0.039351247
+2025-07-03,down,0.49664,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.02544296
+2025-07-07,up,0.51308924,sentiment_score,FinBERT Sentiment Score,sentiment,0.039894253,0.039894253,sentiment_score,0.039894253
+2025-07-08,down,0.49614033,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026801715,-0.026801715,sentiment_score,-0.026801715
+2025-07-09,up,0.51085234,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03606848
+2025-07-10,up,0.51190096,sentiment_score,FinBERT Sentiment Score,sentiment,0.042332873,0.042332873,sentiment_score,0.042332873
+2025-07-11,up,0.5158679,sentiment_score,FinBERT Sentiment Score,sentiment,0.042214155,0.042214155,sentiment_score,0.042214155
+2025-07-14,down,0.49633104,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02919713,-0.02919713,sentiment_score,-0.02919713
+2025-07-15,down,0.49398336,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026184797,-0.026184797,sentiment_score,-0.026184797
+2025-07-16,down,0.494215,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026724674,-0.026724674,sentiment_score,-0.026724674
+2025-07-17,down,0.496002,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.02685912
+2025-07-18,down,0.4955681,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026991036,-0.026991036,sentiment_score,-0.026991036
+2025-07-21,down,0.49626234,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026481833,-0.026481833,sentiment_score,-0.026481833
+2025-07-22,up,0.5111476,sentiment_score,FinBERT Sentiment Score,sentiment,0.040015467,0.040015467,sentiment_score,0.040015467
+2025-07-23,down,0.49740943,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027315732,-0.027315732,sentiment_score,-0.027315732
+2025-07-24,down,0.4984462,sentiment_score,FinBERT Sentiment Score,sentiment,-0.0263641,-0.0263641,sentiment_score,-0.0263641
+2025-07-25,down,0.49577323,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02639173,-0.02639173,sentiment_score,-0.02639173
+2025-07-28,down,0.49381736,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.05168464,-0.010295745,sentiment_score,-0.031075304
+2025-07-29,down,0.49884498,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026205469,-0.026205469,sentiment_score,-0.026205469
+2025-07-30,down,0.49690375,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.032563724,0.006913742,sentiment_score,-0.0266693
+2025-07-31,down,0.4951187,sentiment_score,FinBERT Sentiment Score,sentiment,-0.029444013,-0.029444013,sentiment_score,-0.029444013
+2025-08-01,up,0.5112588,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035405736
+2025-08-04,down,0.4950737,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027299078
+2025-08-05,down,0.49289295,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028469088,-0.028469088,sentiment_score,-0.028469088
+2025-08-06,down,0.49801496,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026425997,-0.026425997,sentiment_score,-0.026425997
+2025-08-07,up,0.51178944,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.0376985
+2025-08-08,down,0.49873316,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02738981,-0.02738981,sentiment_score,-0.02738981
+2025-08-11,down,0.4980168,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026638273,-0.026638273,sentiment_score,-0.026638273
+2025-08-12,down,0.49596223,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02602973,-0.02602973,sentiment_score,-0.02602973
+2025-08-13,down,0.49413013,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027059447,-0.027059447,sentiment_score,-0.027059447
+2025-08-14,down,0.4973548,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03030435,0.0064340443,sentiment_score,-0.027126003
+2025-08-15,down,0.49618277,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026564427,-0.026564427,sentiment_score,-0.026564427
+2025-08-18,up,0.5095571,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.033051524
+2025-08-19,up,0.51117873,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03676325
+2025-08-20,down,0.49224085,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027364645,-0.027364645,sentiment_score,-0.027364645
+2025-08-21,down,0.4970187,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.026443457
+2025-08-22,down,0.4930059,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026344176,-0.026344176,sentiment_score,-0.026344176
+2025-08-25,up,0.5055283,sentiment_score,FinBERT Sentiment Score,sentiment,0.036210854,0.036210854,sentiment_score,0.036210854
+2025-08-26,down,0.49540046,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026591618,-0.026591618,sentiment_score,-0.026591618
+2025-08-27,down,0.49532726,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027741933
+2025-08-28,down,0.49738377,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026941715,-0.026941715,sentiment_score,-0.026941715
+2025-08-29,down,0.49316427,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027744098,-0.027744098,sentiment_score,-0.027744098
+2025-09-02,up,0.5104697,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.037315886
+2025-09-03,up,0.5058047,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037642524
+2025-09-04,down,0.4961904,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.024775246
+2025-09-05,down,0.49609247,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.026721464
+2025-09-08,up,0.5058385,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.036738276,0.0078000585,sentiment_score,0.025888221
+2025-09-09,down,0.4907215,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028896637,-0.028896637,sentiment_score,-0.028896637
+2025-09-10,down,0.49531844,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02746959,-0.02746959,sentiment_score,-0.02746959
+2025-09-11,down,0.496441,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027894333,-0.027894333,sentiment_score,-0.027894333
+2025-09-12,down,0.4950585,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025849156,-0.025849156,sentiment_score,-0.025849156
+2025-09-15,down,0.4956834,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026304265,-0.026304265,sentiment_score,-0.026304265
+2025-09-16,down,0.49224085,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02850606,-0.02850606,sentiment_score,-0.02850606
+2025-09-17,up,0.50850284,sentiment_score,FinBERT Sentiment Score,sentiment,0.038923748,0.038923748,sentiment_score,0.038923748
+2025-09-18,down,0.4968167,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.025184043,0.0053469306,sentiment_score,-0.01965343
+2025-09-19,up,0.51321316,sentiment_score,FinBERT Sentiment Score,sentiment,0.038782656,0.038782656,sentiment_score,0.038782656
+2025-09-22,down,0.49639118,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02897404,-0.02897404,sentiment_score,-0.02897404
+2025-09-23,up,0.506607,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038081035
+2025-09-24,down,0.494471,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028319359,-0.028319359,sentiment_score,-0.028319359
+2025-09-25,up,0.5110089,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035469383
+2025-09-26,up,0.51272833,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036885466
+2025-09-29,down,0.4934141,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.02639173
+2025-09-30,up,0.5136813,sentiment_score,FinBERT Sentiment Score,sentiment,0.04212503,0.04212503,sentiment_score,0.04212503
+2025-10-01,up,0.5114197,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.038199235
+2025-10-02,up,0.51540333,sentiment_score,FinBERT Sentiment Score,sentiment,0.04103194,0.04103194,sentiment_score,0.04103194
+2025-10-03,down,0.48943064,global_markets_commodities,LDA Topic: Global Markets Commodities,lda,-0.0483478,-0.009631036,sentiment_score,-0.03088095
+2025-10-06,up,0.51054263,sentiment_score,FinBERT Sentiment Score,sentiment,0.037269145,0.037269145,sentiment_score,0.037269145
+2025-10-07,up,0.51628035,sentiment_score,FinBERT Sentiment Score,sentiment,0.045292284,0.045292284,sentiment_score,0.045292284
+2025-10-08,down,0.497014,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027257452,-0.027257452,sentiment_score,-0.027257452
+2025-10-09,up,0.5119376,sentiment_score,FinBERT Sentiment Score,sentiment,0.037965223,0.037965223,sentiment_score,0.037965223
+2025-10-10,up,0.5024523,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.031341836
+2025-10-13,up,0.5113527,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.035762608,0.00759291,sentiment_score,0.033102196
+2025-10-14,down,0.49439457,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028433437,-0.028433437,sentiment_score,-0.028433437
+2025-10-15,down,0.49800053,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026177589,-0.026177589,sentiment_score,-0.026177589
+2025-10-16,up,0.5054377,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.03283006
+2025-10-17,up,0.51151454,sentiment_score,FinBERT Sentiment Score,sentiment,0.03898285,0.03898285,sentiment_score,0.03898285
+2025-10-20,up,0.5105316,sentiment_score,FinBERT Sentiment Score,sentiment,0.039315607,0.039315607,sentiment_score,0.039315607
+2025-10-21,down,0.49590167,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028020013,-0.028020013,sentiment_score,-0.028020013
+2025-10-22,up,0.5105918,sentiment_score,FinBERT Sentiment Score,sentiment,0.041028146,0.041028146,sentiment_score,0.041028146
+2025-10-23,down,0.49525234,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.027194636
+2025-10-24,up,0.5089848,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.03834038
+2025-10-27,up,0.5127075,sentiment_score,FinBERT Sentiment Score,sentiment,0.03997756,0.03997756,sentiment_score,0.03997756
+2025-10-28,down,0.4939809,sentiment_score,FinBERT Sentiment Score,sentiment,-0.027300991,-0.027300991,sentiment_score,-0.027300991
+2025-10-29,up,0.5079858,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03594397
+2025-10-30,up,0.5139142,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.038418557
+2025-10-31,down,0.49118173,sentiment_score,FinBERT Sentiment Score,sentiment,-0.030068884,-0.030068884,sentiment_score,-0.030068884
+2025-11-03,up,0.50544935,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.035925023
+2025-11-04,up,0.51090544,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03704432
+2025-11-05,up,0.5187954,sentiment_score,FinBERT Sentiment Score,sentiment,0.043052383,0.043052383,sentiment_score,0.043052383
+2025-11-06,up,0.50599724,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.027954027
+2025-11-07,up,0.51287514,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.0377169
+2025-11-10,down,0.49357215,sentiment_score,FinBERT Sentiment Score,sentiment,-0.03152205,-0.03152205,sentiment_score,-0.03152205
+2025-11-11,up,0.5064419,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.03488585
+2025-11-12,down,0.4959607,sentiment_score,FinBERT Sentiment Score,sentiment,-0.028705386,-0.028705386,sentiment_score,-0.028705386
+2025-11-13,up,0.51320773,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03825422
+2025-11-14,up,0.50756824,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.038659096,-0.007701015,sentiment_score,0.037568845
+2025-11-17,up,0.5106478,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03704432
+2025-11-18,up,0.5055283,sentiment_score,FinBERT Sentiment Score,sentiment,0.036210854,0.036210854,sentiment_score,0.036210854
+2025-11-19,down,0.4966083,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.03388477,0.0071942187,sentiment_score,-0.027276888
+2025-11-20,up,0.51297796,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.036851164
+2025-11-21,up,0.5024936,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.04169298,-0.0083053745,sentiment_score,0.032904785
+2025-11-24,down,0.48909515,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.027312368
+2025-11-25,down,0.49411324,sentiment_score,FinBERT Sentiment Score,sentiment,-0.02653934,-0.02653934,sentiment_score,-0.02653934
+2025-11-26,down,0.49238905,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.03764233,-0.007992002,sentiment_score,-0.026616592
+2025-11-28,down,0.49289358,tf_equity_markets,TF-IDF: Equity Markets,tfidf,-0.034403887,-0.0073044347,sentiment_score,-0.027484186
+2025-12-01,down,0.49555063,sentiment_score,FinBERT Sentiment Score,sentiment,-0.025598938,-0.025598938,sentiment_score,-0.025598938
+2025-12-02,up,0.5115233,sentiment_score,FinBERT Sentiment Score,sentiment,0.040268358,0.040268358,sentiment_score,0.040268358
+2025-12-03,down,0.4929409,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026869625,-0.026869625,sentiment_score,-0.026869625
+2025-12-04,down,0.49531633,tf_macro_economy,TF-IDF: Macro Economy,tfidf,0.037341762,0.007928187,sentiment_score,-0.029351817
+2025-12-05,down,0.49358416,tf_currency_fx,TF-IDF: Currency Fx,tfidf,-0.032979958,-0.0070021143,sentiment_score,-0.027376618
+2025-12-08,down,0.4944406,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026292011,-0.026292011,sentiment_score,-0.026292011
+2025-12-09,up,0.50793564,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03576111
+2025-12-10,down,0.49209163,us_foreign_policy_geopolitics,LDA Topic: Us Foreign Policy Geopolitics,lda,-0.023886489,-0.004758265,sentiment_score,-0.02278075
+2025-12-11,up,0.5074847,tf_bonds_credit_ratings,TF-IDF: Bonds Credit Ratings,tfidf,0.038814846,0.008240944,sentiment_score,0.03616603
+2025-12-12,down,0.49365532,sentiment_score,FinBERT Sentiment Score,sentiment,-0.026885327,-0.026885327,sentiment_score,-0.026885327

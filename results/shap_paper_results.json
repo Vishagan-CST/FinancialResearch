@@ -1,0 +1,79 @@
+{
+  "n_test": 479,
+  "top_10_features": [
+    {
+      "feature": "sentiment_score",
+      "display_name": "FinBERT Sentiment Score",
+      "category": "FinBERT Sentiment",
+      "mean_abs_shap": 0.033147796988487244
+    },
+    {
+      "feature": "tf_bonds_credit_ratings",
+      "display_name": "TF-IDF: Bonds Credit Ratings",
+      "category": "TF-IDF Vectorisation",
+      "mean_abs_shap": 0.006380794569849968
+    },
+    {
+      "feature": "tf_macro_economy",
+      "display_name": "TF-IDF: Macro Economy",
+      "category": "TF-IDF Vectorisation",
+      "mean_abs_shap": 0.0035274282563477755
+    },
+    {
+      "feature": "tf_central_bank_policy",
+      "display_name": "TF-IDF: Central Bank Policy",
+      "category": "TF-IDF Vectorisation",
+      "mean_abs_shap": 0.0030740422662347555
+    },
+    {
+      "feature": "global_markets_commodities",
+      "display_name": "LDA Topic: Global Markets Commodities",
+      "category": "LDA Topic Modelling",
+      "mean_abs_shap": 0.0025235554203391075
+    },
+    {
+      "feature": "us_foreign_policy_geopolitics",
+      "display_name": "LDA Topic: Us Foreign Policy Geopolitics",
+      "category": "LDA Topic Modelling",
+      "mean_abs_shap": 0.0024703498929739
+    },
+    {
+      "feature": "tf_equity_markets",
+      "display_name": "TF-IDF: Equity Markets",
+      "category": "TF-IDF Vectorisation",
+      "mean_abs_shap": 0.0023959774989634752
+    },
+    {
+      "feature": "us_china_trade_tariffs",
+      "display_name": "LDA Topic: Us China Trade Tariffs",
+      "category": "LDA Topic Modelling",
+      "mean_abs_shap": 0.002263771602883935
+    },
+    {
+      "feature": "banking_financial_markets",
+      "display_name": "LDA Topic: Banking Financial Markets",
+      "category": "LDA Topic Modelling",
+      "mean_abs_shap": 0.0018590186955407262
+    },
+    {
+      "feature": "tf_investor_sentiment_risk",
+      "display_name": "TF-IDF: Investor Sentiment Risk",
+      "category": "TF-IDF Vectorisation",
+      "mean_abs_shap": 0.0018313340842723846
+    }
+  ],
+  "category_importance": {
+    "FinBERT Sentiment": {
+      "sum_mean_abs_shap": 0.033147796988487244,
+      "pct_of_total": 46.900001525878906
+    },
+    "TF-IDF Vectorisation": {
+      "sum_mean_abs_shap": 0.021340638399124146,
+      "pct_of_total": 30.200000762939453
+    },
+    "LDA Topic Modelling": {
+      "sum_mean_abs_shap": 0.016185957938432693,
+      "pct_of_total": 22.899999618530273
+    }
+  }
+}

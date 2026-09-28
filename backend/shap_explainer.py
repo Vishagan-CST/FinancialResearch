@@ -18,6 +18,9 @@ try:
 except ImportError:
     shap = None
     HAS_SHAP = False
+    
+LDA_MULTIPLIER = 5.02
+TFIDF_MULTIPLIER = 4.71
 
 
 class SHAPExplainer:
@@ -103,16 +106,10 @@ class SHAPExplainer:
                 feat_val = float(feature_row[feat_name].iloc[0])
                 direction = "UP" if s_val > 0 else ("DOWN" if s_val < 0 else "NEUTRAL")
 
-                # Compute Variance-Adjusted SHAP Impact
-                # LDA topic probabilities are Dirichlet-distributed (sparse, sum=1.0, values 0.05-0.20)
-                # TF-IDF group scores are additive term sums (denser, values 0.3-2.0+)
-                # Higher LDA multiplier (45x) is statistically justified to compensate for structural sparsity
-                if info["source_type"] == "lda_topic" and feat_val > 0.05:
-                    adj_s_val = float(s_val * 45.0)
-                elif info["source_type"] == "tfidf" and feat_val > 0.05:
-                    adj_s_val = float(s_val * 12.0)
-                elif info["source_type"] != "sentiment":
-                    adj_s_val = float(s_val * 0.1)
+                if info["source_type"] == "lda_topic":
+                    adj_s_val = s_val * LDA_MULTIPLIER
+                elif info["source_type"] == "tfidf":
+                    adj_s_val = s_val * TFIDF_MULTIPLIER
                 else:
                     adj_s_val = s_val
 
@@ -134,14 +131,14 @@ class SHAPExplainer:
                     category_totals.get(info["category"], 0.0) + abs(adj_s_val), 6
                 )
 
-            # Sort features by Variance-Adjusted SHAP magnitude descending
+            # Sort features by variance-adjusted SHAP magnitude descending
             feature_contributions.sort(key=lambda x: abs(x["shap_value"]), reverse=True)
 
             top_lda = next((f for f in feature_contributions if f["source_type"] == "lda_topic"), None)
             top_tfidf = next((f for f in feature_contributions if f["source_type"] == "tfidf"), None)
             top_sentiment = next((f for f in feature_contributions if f["source_type"] == "sentiment"), None)
 
-            # Dominant feature = Top item in the sorted adjusted SHAP list (matches top bar in graph 100%)
+            # Dominant feature = Top item in the sorted variance-adjusted SHAP list (matches top bar in graph 100%)
             dominant_feat = feature_contributions[0]
 
             explanation_text = (
