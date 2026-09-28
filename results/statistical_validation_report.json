@@ -1,0 +1,33 @@
+{
+  "n_folds": 5,
+  "pooled_n_test": 1197,
+  "pooled_model_accuracy": 0.6157059314954052,
+  "pooled_baseline_accuracy": 0.5421888053467001,
+  "pooled_edge": 0.07351712614870509,
+  "fold_accuracy_mean": 0.6157780517022864,
+  "fold_accuracy_std": 0.04426945962356251,
+  "block_bootstrap_ci_95_accuracy": {
+    "lower": 0.5873015873015873,
+    "upper": 0.6432748538011696
+  },
+  "block_bootstrap_ci_95_edge_over_baseline": {
+    "lower": 0.036758563074352546,
+    "upper": 0.1086048454469507
+  },
+  "mcnemar_test": {
+    "n01": 291,
+    "n10": 203,
+    "statistic": 15.321862348178138,
+    "p_value": 9.066119634826286e-05,
+    "method": "chi-square, continuity-corrected"
+  },
+  "diebold_mariano_test": {
+    "dm_statistic": -0.1999666516160356,
+    "p_value": 0.8415406566654631,
+    "mean_loss_diff": -0.0005847322070238593,
+    "n": 1197,
+    "lag_h": 11
+  },
+  "mcnemar_verdict": "SIGNIFICANT (p<0.05)",
+  "diebold_mariano_verdict": "NOT significant (p>=0.05)"
+}
